@@ -23,12 +23,21 @@
 #ban name generator
 
 #collecting data
-name=input("What is your name? ")
-age=input("How old are you? ")
-school=input("Which school do you attend? ")
-department=input("What department are you in? ")
-fav_meal=input("What is your favorite meal? ")
-best_friend=input("Who is your best friend? ")
+# name=input("What is your name? ")
+# age=input("How old are you? ")
+# school=input("Which school do you attend? ")
+# department=input("What department are you in? ")
+# fav_meal=input("What is your favorite meal? ")
+# best_friend=input("Who is your best friend? ")
 
-#creating a story
-print(f"My name is {name} and I am {age} years old. I am a student in {school} in the {department}. My love eating {fav_meal} and my best friend is {best_friend}.")
+# #creating a story
+# print(f"My name is {name} and I am {age} years old. I am a student in {school} in the {department}. My love eating {fav_meal} and my best friend is {best_friend}.")
+
+
+#Area of a rectangle and perimeter
+
+length = 10
+width = 5
+A = length * width
+P = (length + width)*2  
+print(f"Area of rectangle with length {length} and {width} is {A} and perimeter is {P}")
