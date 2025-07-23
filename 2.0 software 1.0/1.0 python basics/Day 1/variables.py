@@ -36,8 +36,13 @@
 
 #Area of a rectangle and perimeter
 
-length = 10
-width = 5
-A = length * width
-P = (length + width)*2  
-print(f"Area of rectangle with length {length} and {width} is {A} and perimeter is {P}")
+# length = 10
+# width = 5
+# A = length * width
+# P = (length + width)*2  
+# print(f"Area of rectangle with length {length} and {width} is {A} and perimeter is {P}")
+
+temp_c= input("Enter a temperature value in celsius ")
+temp_c = float(temp_c)
+temp_f= (temp_c * (9/5)) + 32
+print(f" {temp_c} in fahrenheit is {temp_f} ")
